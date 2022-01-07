@@ -1,0 +1,16 @@
+{
+  "CONTRACT_ADDRESS": "0x6Fc1C8d59FdC261c55273f9b8e64B7E88C45E208",
+  "SCAN_LINK": "https://explorer.celo.org/address/0x6Fc1C8d59FdC261c55273f9b8e64B7E88C45E208",
+  "NETWORK": {
+    "NAME": "Celo (Mainnet)",
+    "SYMBOL": "CELO",
+    "ID": 42220
+  },
+  "NFT_NAME": "CeloToadz",
+  "SYMBOL": "CTOADZ",
+  "MAX_SUPPLY": 6969,
+  "WEI_COST": 2690000000000000000,
+  "DISPLAY_COST": 2.69,
+  "GAS_LIMIT": 285000,
+  "SHOW_BACKGROUND": true
+}

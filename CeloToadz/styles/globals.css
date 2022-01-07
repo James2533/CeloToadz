@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-3xl md:text-5xl font-bold;
+  }
+  h2 {
+    @apply text-2xl md:text-3xl font-bold;
+  }
+  h3 {
+    @apply text-xl md:text-2xl;
+  }
+  h4 {
+    @apply text-base md:text-lg;
+  }
+
+  ::-webkit-scrollbar {
+    width: 20px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: gray;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: gray;
+  }
+}
+
+::selection {
+  background-color: #47a3f3;
+  color: #fefefe;
+}
+
+html {
+  min-width: 360px;
+  scroll-behavior: smooth;
+}
+
+#__next {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.layout {
+  @apply flex flex-col justify-center items-start max-w-5xl px-4 py-8 mx-auto 2xl:max-w-6xl;
+}
+
+.sticky_nav {
+  position: sticky;
+  z-index: 10;
+  top: 0;
+}
+
+.nav {
+  @apply flex items-center justify-between w-full max-w-5xl mx-auto my-0 2xl:max-w-6xl;
+}
+
+.nav_link {
+  @apply block py-2 font-medium lg:px-2 lg:mx-6;
+}
+
+.banner_image {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
